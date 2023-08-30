@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="StereoKit" Version="0.3.4-preview.1" />
+    <PackageReference Include="StereoKit" Version="0.3.7-preview.1601" />
   </ItemGroup>
 
   <ItemGroup>
