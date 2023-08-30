@@ -49,6 +49,13 @@ class Painting
 		_strokeList.Add(_undoStack.Pop());
 	}
 
+
+	public void Clear(){
+		while(_strokeList.Count > 0)
+			_strokeList.RemoveAt(_strokeList.Count-1);
+	}
+
+
 	void UpdateInput(Handed handed, Color color, float thickness)
 	{
 		// Get the hand's fingertip, convert it to local space, and smooth

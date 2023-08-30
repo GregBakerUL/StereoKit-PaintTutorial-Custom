@@ -36,8 +36,7 @@ class Program
 		// forget objects or systems that need to update each frame.
 		SK.AddStepper(new HandMenuRadial(
 			new HandRadialLayer("Root", -90,
-				new HandMenuItem("Undo", null, ()=>activePainting?.Undo()),
-				new HandMenuItem("Redo", null, ()=>activePainting?.Redo()))));
+				new HandMenuItem("Clear", null, ()=>activePainting?.Clear()))));
 
 		// Initialize the palette menu, see PaletteMenu.cs! This class
 		// manages the palette UI object for manipulating our brush stroke
